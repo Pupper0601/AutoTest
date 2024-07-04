@@ -1,0 +1,18 @@
+env: test
+
+test:
+  cache:
+    sqlite: common/cache/cache_sql.db
+  host:
+    subject: http://dev.api.test.2uchat.cn
+    tourist: http://52.83.180.187:8092
+    member: http://dev.api.test.2uchat.cn
+
+
+produce:
+  cache:
+    sqlite: common/cache/cache_sql.db
+  host:
+    subject: https://api.2uchat.cn
+    tourist: http://54.223.202.253:8092
+    member: http://54.223.202.253:9000
